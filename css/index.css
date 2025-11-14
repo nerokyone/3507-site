@@ -1,0 +1,199 @@
+body {
+    font-family: "Onest";
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: Bold;
+    color: white;
+    margin-left: 10px;
+}
+
+.button {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.header-button {
+    color: white;
+    text-decoration: none;
+    padding: 10px 60px;
+    border: 1px solid white;
+    transition: background-color 0.3s;
+}
+
+.header-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.cont1 {
+    margin-left: 100px;
+    margin-top: 250px;
+}
+
+.title-c1 {
+    font-weight: Bold;
+    font-size: 100px;
+}
+
+.desc-c1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.button-c1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.button-c1:hover {
+    background-color: white;
+    border: solid 2px black;
+    color: black
+}
+
+
+.cont2 {
+    margin-left: 100px;
+    margin-top: 250px;
+}
+
+.title-c2 {
+    font-size: 60px;
+}
+
+.desc-c2 {
+    margin-right: 1300px;
+}
+
+.cont3 {
+    margin-left: 100px;
+    margin-top: 250px;
+}
+
+.title-c3 {
+    font-size: 60px;
+}
+
+.cards {
+    display: inline-flex;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.card {
+    background-color: black;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.author {
+    color: #414141;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.name {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.type {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.cards {
+    display: inline-flex;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.card {
+    color: white;
+    padding-bottom: 5px;
+}
+
+.cont4 {
+    margin-left: 100px;
+}
+
+.cards1 {
+    display: inline-flex;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.cards1-cont {
+    justify-content: center;
+}
+
+.title-c4 {
+    font-size: 60px;
+}
+
+footer {
+    display: flex;
+    background-color: #000000;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-f {
+    margin-top: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.address {
+    color: #fff;
+}
+
+.buttonf {
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+.button-f {
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 55px;
+    padding-right: 55px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    transition: all 0.8s ease;
+}
+
+.button-f:hover {
+    background-color: black;
+    color: white;
+    border: solid 2px white;
+}
+
+.dev {
+    color: #414141;
+    margin-bottom: 25px;
+}
